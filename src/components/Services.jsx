@@ -25,7 +25,7 @@ const Services = () => {
         backgroundSize : 'cover'
     }
   return (
-    <section style={backgroundImageStyle} className='text-white sm:mt-[100px] sm:px-[200px] sm:pb-[80px]  text-center'>
+    <section id='services' style={backgroundImageStyle} className='text-white sm:mt-[100px] sm:px-[200px] sm:pb-[80px]  text-center'>
         <h3 className='text-[48px] py-[40px] font-semibold'>Services</h3>
         <ul className='flex sm:flex-row flex-col  justify-evenly items-center  '>
             {servicesDetails.map(service => {

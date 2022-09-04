@@ -10,20 +10,22 @@ const Navbar = () => {
     <Fragment>
         <nav className='text-[24px] font-medium  ss:flex hidden '>
             <ul className='flex justify-evenly w-[800px] text-white'>
-                <li><a>About me</a></li>
-                <li><a>Services</a></li>
-                <li><a>Projects</a></li>
-                <li><a>Content</a></li>
-                <li><a>Contact me</a></li>
+                <li><a href='#aboutme'>About me</a></li>
+                <li><a href='#services'>Services</a></li>
+                <li><a href='#projects'>Projects</a></li>
+                {/* <li><a href='content'>Content</a></li> */}
+                <li><a href='#contactme'>Contact me</a></li>
             </ul>
         </nav>
-        <nav style={backgroundImageStyle} className='fixed bottom-[50px] mx-[10%] z-50 left-0 text-[16px] ss:hidden flex font-medium rounded-[20px]'>
+        <div className='flex justify-center w-[100vw] fixed bottom-[50px] z-50 left-0 text-[16px] ss:hidden font-medium '>
+        <nav style={backgroundImageStyle} className='rounded-[20px]'>
             <ul  className='p-[10px] flex justify-evenly w-[300px]  backdrop-blur-[2px]  text-black rounded-[20px]'>
-                <li><a>Services</a></li>
-                <li><a>Projects</a></li>
-                <li><a>Content</a></li>
+                <li><a href='#services'>Services</a></li>
+                <li><a href='#projects'>Projects</a></li>
+                <li><a href='#contactme'>Contact me</a></li>
             </ul>
         </nav>
+        </div>
     </Fragment>
 
   )

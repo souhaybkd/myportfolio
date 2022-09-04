@@ -25,7 +25,7 @@ const projectsDetails = [
 
 const Projects = () => {
   return (
-    <section className='text-white ss:mt-[100px] ss:px-[200px] ss:pb-[80px] text-center'>
+    <section id='projects' className='text-white ss:mt-[100px] ss:px-[200px] ss:pb-[80px] text-center'>
         <h3 className='text-[48px] py-[40px] font-semibold'>Projects</h3>
         <ul className='grid ss:grid-cols-3 grid-cols-1 place-items-center gap-[30px]'>
             {projectsDetails.map(project => {
