@@ -14,6 +14,7 @@ import fyloProject from './fyloProject.png'
 import csssupertools from './csssupertools.png'
 import ecoproduct from './ecoproduct.png'
 import arrow2 from './arrow2.svg'
+import clothesstore from './clothesstore.jpg'
 
 
 export {
@@ -32,5 +33,6 @@ export {
     fyloProject,
     csssupertools,
     ecoproduct,
-    arrow2
+    arrow2,
+    clothesstore
 }
