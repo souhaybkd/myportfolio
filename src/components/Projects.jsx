@@ -5,19 +5,19 @@ const projectsDetails = [
     {
         name: 'Css supertools',
         image : csssupertools,
-        description :"Webiste Contain more than 50 useful recourses to learn , practice Css",
+        description :"The website Contains more than 50 useful resources to learn, and practice CSS",
         link: 'https://css-supertools.com/'
     },
     {
         name: 'ecommerce product page',
         image : ecoproduct,
-        description :"ecommerce systeme , you can add and remove items to cart , and choose the quantity of products",
+        description :"eCommerce system , you can add and remove items to cart, and choose the quantity of products",
         link: 'https://pro-ecommerce-products.netlify.app/'
     },
     {
         name: 'fylo landing page',
         image : fyloProject,
-        description :"Fylo , is a landing page for software business , is fully responsive",
+        description :"Fylo , is a landing page for a software business , is fully responsive",
         link: 'https://fylo-company.netlify.app/'
     },
     {

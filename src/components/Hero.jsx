@@ -9,7 +9,7 @@ const Hero = () => {
     backgroundSize : 'contain'
   }
   return (
-    <section className={`relative flex ss:flex-col flex-col-reverse items-center justify-center py-[4%]  w-[100vw] ss:h-[100vh] h-[50vh]   bg-cover bg-no-repeat text-[50px] text-black`}
+    <section className={`relative flex ss:flex-col flex-col-reverse items-center justify-center py-[4%]  w-[100vw] ss:h-[100vh] h-[50vh]  bg-cover bg-no-repeat text-[50px] text-black`}
       style={backgroundImageStyle} >
       <div className='text-white text-center py-[20px] ss:mt-0 mt-[30px]'>
         <h1 className='ss:text-[80px] text-[28px] font-bold '>Souhayb Kamal Eldine</h1>

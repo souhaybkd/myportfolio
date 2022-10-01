@@ -3,19 +3,19 @@ import { webicon , designicon , apiicon ,background2 ,} from '../assets'
 
 const servicesDetails = [
     {
-        name: 'build your website',
+        name: 'Build your website',
         icon: webicon,
-        description: 'i will build your website using my experience in moderne web developement technologies '
+        description: 'i will build your website using my experience in moderne web development technologies '
     },
     {
-        name: 'design to code',
+        name: 'Design to code',
         icon: designicon,
-        description: 'i will transform anytype of design to a code who run in your browser '
+        description: 'I will transform any type of design into a code that run in your browser '
     },
     {
-        name: 'edit your website',
+        name: 'Edit your website',
         icon: apiicon,
-        description: 'i will edit your website , add sections , pages or any functionality you want and fix the bugs in your code'
+        description: 'I will edit your website, add sections, pages, or any functionality you want, and fix the bugs in your code'
     }
 ]
 
